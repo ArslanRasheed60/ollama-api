@@ -44,7 +44,7 @@ async def predict(request: Request):
     try:
         model_api_url = "http://localhost:11434/api/generate"
         data_to_send = {
-            "model": "llama2",
+            "model": "meditron",
             "prompt": request.input_text,
         }
 
